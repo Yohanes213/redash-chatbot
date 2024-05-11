@@ -1,4 +1,4 @@
-/data/*
-/youtube_data/*
+data/*
+youtube_data/*
 
-/prompt engineering/.env
+prompt engineering/.env
