@@ -4,14 +4,14 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # PostgreSQL connection parameters
-dbname = "redash-chatbot-group9"
+dbname = "redash_chatbot_group9"
 user = "postgres"
-password = "Adekunle_5880"
+password = "postgres"
 host = "localhost"  # or your PostgreSQL host address
 port = "5432"  # default PostgreSQL port
 
 # Directory containing CSV files
-data_folder = "/Users/expert/Desktop/10-Academy/week-3/redash-chatbot/data"
+data_folder = "/home/mahbubah/Desktop/week-3/redash-chatbot/data"
 
 # Connect to PostgreSQL
 conn = psycopg2.connect(dbname=dbname, user=user, password=password, host=host, port=port)

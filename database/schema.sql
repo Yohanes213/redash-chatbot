@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS Cities (
     "Cities" TEXT,
     "City name" TEXT,
     "Views" INTEGER,
-    PRIMARY KEY ("Cities")
+    PRIMARY KEY ("Date","Cities")
 );
 
 /*Content type*/
