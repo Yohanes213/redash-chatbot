@@ -29,3 +29,5 @@ client/cypress/screenshots
 client/cypress/videos
 
 data
+
+__pycache__/
