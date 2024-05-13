@@ -32,6 +32,7 @@ def connect_to_database(host: str, database: str, user: str, password: str, port
     """
 
     try:
+        
         connection = psycopg2.connect(host=host, database=database, user=user, password=password, port=port)
         logger.info("Connected to database successfully")
         return connection
