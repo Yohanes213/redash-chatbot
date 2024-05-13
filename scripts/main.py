@@ -45,14 +45,14 @@ def process_data_and_upload(conn):
 
             # Write the modified CSV file to the database
             table_name = folder.replace(" ", "_")
-            write_csv_to_database(conn, modified_csv_file_path, table_name)
+            write_csv_to_database(conn, modified_csv_file_path, f'my_schema.{table_name}')
 
         elif len(os.listdir(folder_path)) == 1:
             csv_file_path = os.path.join(folder_path, 'Table data.csv')
             table_name = folder.replace(" ", "_")
 
             # Write the CSV file to the database without modification
-            write_csv_to_database(conn, csv_file_path, table_name)
+            write_csv_to_database(conn, csv_file_path, f'my_schema.{table_name}')
 
 if __name__ == "__main__":
     load_environment_variables()
