@@ -1,5 +1,39 @@
-data/*
-youtube_data/*
+.venv
+venv/
+.cache
+.coverage.*
+.coveralls.yml
+.idea
+*.pyc
+.nyc_output
+coverage
+.coverage
+coverage.xml
+client/dist
+.DS_Store
+.#*
+\#*#
+*~
+_build
+.vscode
+.env
 
+<<<<<<< HEAD
 prompt engineering/
 .env
+=======
+dump.rdb
+
+node_modules
+.tmp
+.sass-cache
+npm-debug.log
+
+
+client/cypress/screenshots
+client/cypress/videos
+
+data
+
+__pycache__/
+>>>>>>> 00f441ca1ee65b1c6ee48743cbf9bb171c183c3d
