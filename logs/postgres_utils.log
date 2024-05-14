@@ -194,3 +194,7 @@ LINE 1: INSERT INTO Viewer_age VALUES ('13–17 years', '0.49', '0:00:...
 2024-05-13 21:06:31,308 postgres_utils INFO Data from CSV file inserted into the database successfully.
 2024-05-13 21:06:46,979 postgres_utils INFO Data from CSV file inserted into the database successfully.
 2024-05-13 21:06:48,639 postgres_utils INFO Data from CSV file inserted into the database successfully.
+2024-05-14 14:27:25,479 postgres_utils ERROR Failed to connect to database: connection to server at "localhost" (127.0.0.1), port 15432 failed: FATAL:  role "user5" does not exist
+
+2024-05-14 17:17:26,489 postgres_utils ERROR Failed to connect to database: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  role "user5" does not exist
+
