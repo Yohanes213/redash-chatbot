@@ -1,4 +1,5 @@
 data/*
 youtube_data/*
 
-prompt engineering/.env
+prompt engineering/
+.env
